@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header__container">
+        <div class="header__logo">
+          <img class="logo" src="img/logo1.png" alt="" />
+          <span>Турист.pro</span>
+        </div>
+
+        <nav>
+          <ul>
+            <li>
+              <a class="nav__link" href="#actions">Акции</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#search">Поиск</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#instructions">Бронирование</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__content">
+        <div class="header__text">
+          <h3 class="header__title">Исполнить мечты просто!</h3>
+          <div class="header__goal">
+            Сделаем любой поход удобным, комфортным и безопасным.
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="actions" class="actions">
+      <div class="container">
+        <h2>Акции</h2>
+        <div class="action__inner">
+          <div class="action">
+            <div class="action__img">
+              <img src="./img/discounts/1.jpg" alt="" />
+              <div class="action_discount">- 40%</div>
+            </div>
+            <div class="action__name">Шебекино</div>
+            <div class="action__descrtption">
+              город в Белгородской области России, административный центр
+              Шебекинского района (городского округа).
+            </div>
+            <a class="action__btn_description" href=""> Подробнее </a>
+          </div>
+          <div class="action">
+            <div class="action__img">
+              <img src="./img/discounts/1.jpg" alt="" />
+              <div class="action_discount">- 40%</div>
+            </div>
+            <div class="action__name">Шебекино</div>
+            <div class="action__descrtption">
+              город в Белгородской области России, административный центр
+              Шебекинского района (городского округа).
+            </div>
+            <a class="action__btn_description" href=""> Подробнее </a>
+          </div>
+          <div class="action">
+            <div class="action__img">
+              <img src="./img/discounts/1.jpg" alt="" />
+              <div class="action_discount">- 40%</div>
+            </div>
+            <div class="action__name">Шебекино</div>
+            <div class="action__descrtption">
+              город в Белгородской области России, административный центр
+              Шебекинского района (городского округа).
+            </div>
+            <a class="action__btn_description" href=""> Подробнее </a>
+          </div>
+          <div class="action">
+            <div class="action__img">
+              <img src="./img/discounts/1.jpg" alt="" />
+              <div class="action_discount">- 40%</div>
+            </div>
+            <div class="action__name">Шебекино</div>
+            <div class="action__descrtption">
+              город в Белгородской области России, административный центр
+              Шебекинского района (городского округа).
+            </div>
+            <a class="action__btn_description" href=""> Подробнее </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="container">
+        <h3>Закрытые акции</h3>
+        <div class="subscribe__form">
+          <input
+            class="subscribe__input"
+            placeholder="Введите email, чтобы подписаться"
+            type="email"
+            name=""
+            id=""
+          />
+          <a class="subscribe__link" href="">Подписаться</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="instructions" class="instructions">
+      <div class="container">
+        <div class="instructions__inner">
+          <div class="unstruction unstruction-1">
+            Заполните форму поиска, для подбора подходящих вариантов
+          </div>
+          <div class="unstruction unstruction-2">
+            Выберите подходящий маршрут который удовлетворяет вашим требованиям
+          </div>
+          <div class="unstruction unstruction-3">Выберите подходящие зоны</div>
+          <div class="unstruction unstruction-4">
+            Заполните форму для сбора данных о заказе и определения набора
+            дополнительных услуг
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="search" class="search">
+      <div class="container">
+        <h1 class="">Поиск путёвок</h1>
+        <form class="search__form" action="search.html">
+          <div class="search__input_container">
+            <div class="search__input_block">
+              <span>Даты похода</span>
+              <div class="seacrh__input_date_container">
+                с<input
+                  class="seach_input_date search__form_input"
+                  type="date"
+                />
+                по<input
+                  class="seach_input_date search__form_input"
+                  type="date"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="search__input_block">
+            <div>Количество участников</div>
+            <input class="search__form_input" type="number" />
+          </div>
+          <div class="search__input_block">
+            <span>Уровень подготовки</span>
+            <div>
+              <select class="search__form_input" name="" id="">
+                <option value="Легкий">Легкий</option>
+                <option value="Средний">Средний</option>
+                <option value="Сложный">Сложный</option>
+              </select>
+            </div>
+          </div>
+          <input class="search__submit" type="submit" value="Поиск" />
+        </form>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title">Отзывы</h2>
+
+        <div class="reviews__inner">
+          <div class="review">
+            <div class="review__name">Андрей</div>
+            <div class="review__content">
+              Отличный поход выходного дня, маршрут без особых сложностей, но
+              достаточно длинный, чтобы его ощутить. По маршруту природные и
+              антропогенные интересности.
+            </div>
+            <div class="review__location"><a href="">Шебекино</a></div>
+          </div>
+          <div class="review">
+            <div class="review__name">Владимир</div>
+            <div class="review__content">
+              Прекрасные инструкторы, Николай и Юрий: доброжелательные,
+              профессиональные, явно старались, чтоб участники похода были
+              довольны: помогали, обучали, рассказывали.
+            </div>
+            <div class="review__location"><a href="">Шебекино</a></div>
+          </div>
+          <div class="review">
+            <div class="review__name">Алексей</div>
+            <div class="review__content">
+              Пошёл первый раз в велопоход и он превзошёл мои ожидания! Было
+              очень красиво, разнообразный маршрут: по трассе, через лес, через
+              речку и броды, по песку.
+            </div>
+            <div class="review__location"><a href="">Шебекино</a></div>
+          </div>
+          <div class="review">
+            <div class="review__name">Анастасия</div>
+            <div class="review__content">
+              Бомбические выходные)))погода порадовала градом, ливнем и
+              солнцем)))пейзажи завораживает,а ещё с такой великолепной
+              компанией)спасибо огромное инструкторам!
+            </div>
+            <div class="review__location"><a href="">Шебекино</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__phone">8 (800) 555-33-10</div>
+          <a class="footer__link" href="#actions">Акции</a>
+          <a class="footer__link" href="#search">Поиск</a>
+          <a class="footer__link" href="#instructions">Бронирование</a>
+        </div>
+        <div class="footer__inner-down">
+          <span> &copy; Все права защищены</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
